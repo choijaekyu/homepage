@@ -116,10 +116,17 @@
       max-width: 120cm;
     }
   </style>
+  <script>
+    function play() {
+      var wav = document.getElementById("wav");
+      wav.play();
+    }
+  </script>
+
 </head>
 <body>
-<h1>Choi Jae Kyu / 최재규</h1>
-
+<h1>Choi Jae Kyu / 최재규 <a href="#" onclick="play();return false;">🔈</a></h1>
+<audio id="wav" src="cjk.wav"></audio>
 <figure class="profile">
   <a href="./cjk.jpg"><img src="./cjk.jpg" alt="my picture"></a>
   <figcaption>2023.04.30</figcaption>
